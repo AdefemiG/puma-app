@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding-bottom: 3rem;
+    background: linear-gradient(130deg, #fdefe9 60%, white 50%);
+}
+
+nav{
+    padding-block: 1rem;
+}
+
+.gen-layout{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.inner-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-right{
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.banner{
+    display: flex;
+    gap: 14rem;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.banner-content{
+    width: 35%;
+}
+
+.banner-content > h1 {
+    font-size: 3rem;
+    width: 280px;
+}
+
+.banner-content > h1 > span{
+    color: #ee4f0e;
+}
+
+.banner-content > p{
+    width: 280px;
+    opacity: .7;
+    margin-top: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* shoe detail styling */
+.shoe_details_card{
+    border-radius: 5px;
+    margin-bottom: -7rem;
+    box-shadow: .4rem .3rem 12px rgb(239, 239, 239);
+    display: flex;
+    justify-content: space-between;
+    /* gap: 3rem; */
+    padding: 2rem;
+    background-color: #fff;
+    max-width: 700px;
+}
+
+.detail_card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    border-right: 2px solid #ee4f0e;
+    padding-inline: 1rem;
+}
+
+.detail_card > p{
+    text-transform: capitalize;
+}
+
+/* about code */
+.about_ads{
+    margin-block: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about_content > h5 {
+    text-transform: uppercase;
+    color: red;
+    font-size: 1rem;
+}
+
+.about_content > h1{
+    font-size: 2.5rem;
+    width: 350px;
+    margin-block: 1.2rem;
+}
+
+.about_content > p {
+    width: 300px;
+    opacity: .6;
+}
+
+.about_img_vidz {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("./images/glass\ girl.jpg");
+    width: 43%;
+    height: 40vh;
+    position: relative;
+    border-radius: 7px;
+}
+
+.about_img_vidz > img {
+    filter: blur(1px);
+    width: 100%;
+    margin-left: -2rem;
+    margin-top: 2rem;
+    height: 100%;
+    border-radius: 7px;
+}
+
+.about_img_vidz > span {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    /* right: 50%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+}
+
+.about_img_vidz > span > i {
+    color: #ee4f0e;
+    font-size: 1.2rem;
+}
